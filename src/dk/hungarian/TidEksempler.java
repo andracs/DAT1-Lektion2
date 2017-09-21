@@ -28,5 +28,8 @@ public class TidEksempler {
         // Display results
         System.out.println("Current time is " + currentHour + ":"
                 + currentMinute + ":" + currentSecond + " GMT+2");
+        int i = 10;
+        System.out.println(i * i++);
+        System.out.println(i * ++i);
     }
 }
